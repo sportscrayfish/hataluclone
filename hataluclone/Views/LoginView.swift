@@ -24,7 +24,7 @@ struct LoginView: View {
                     .scaledToFit()
                     .frame(height: 200)
                 
-                //inputfields
+                //inputfields_
                 
                 VStack(spacing: 16) {
                     TextField("企業ID", text: $companyID)
@@ -51,7 +51,7 @@ struct LoginView: View {
                 
                 //loginButton
                 Button(action: {
-                    // ログイン処理_
+                    // ログイン処理
                 }) {
                     Text("ログイン")
                         .frame(maxWidth: .infinity)
